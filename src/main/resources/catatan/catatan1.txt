@@ -1,0 +1,38 @@
+Identifiers
+================
+
+Contoh identifers yang diijinkan :
+int x;
+int _x;
+int $x;
+int _$;
+int ____x_07_b;
+int x_y_z;
+
+Contoh identifers yang tidak diijinkan :
+int 123;
+int 123_x;
+int x#;
+int x:;
+int .x;
+
+Konvensi yang digunakan dalam Java Code Convention:
+* Class dan Interface selalu diawali dengan huruf besar dan harus menggunakan kata benda. 
+  Contoh: Pembayaran, Barang, ArrayList dll.
+
+* Method selalu diawali dengan huruf kecil dan harus menggunakan kata kerja. 
+  Contoh: cariBarang, getPembayaran, setBarang dll.
+
+* Variabel selalu diawali dengan hurup kecil dan menggunakan kata benda.
+  Contoh: kode, kodeBarang, harga, kategori dll.
+
+* Konstanta di java dibuat dengan mendeklarasikan sebuah variabel sebagai statif dan final
+  dan menggunakan huruf besar yang antar kata dipisahkan oleh simbol underscore (_).
+  Contoh: DATABASE_NAME, INSERT_SQL dll.
+
+Access Modifier
+================
+public -> bisa diakses oleh siapapun tanpa batasan.
+protected -> bisa diakses oleh kelas turunanya dan kelas lain yg berada dalam satu package yg sama.
+default -> bisa diakses oleh kelas dari package yg sama termasuk kelas itu sendiri.
+private -> hanya bisa diakses oleh kelas itu sendiri.
